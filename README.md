@@ -30,7 +30,7 @@ cd d20-ultra-3d
 # Abre index.html en tu navegador
 ```
 
-> **Nota:** Para que el navegador cargue `script.js` correctamente con el protocolo `file://`, usa un servidor local (ver abajo) o usa directamente la [demo en GitHub Pages](https://TU-USUARIO.github.io/d20-ultra-3d/).
+> **Nota:** Para que el navegador cargue `script.js` correctamente con el protocolo `file://`, usa un servidor local (ver abajo) o usa directamente la [demo en GitHub Pages](https://pollitoscripts.github.io/d20-ultra-3d/).
 
 ### Servidor local (opcional)
 
@@ -123,18 +123,6 @@ if      (num === 20) base = [46,  204, 113];  // Verde  — crítico
 else if (num ===  1) base = [255,  77,  77];  // Rojo   — pifio
 else                 base = [241, 196,  15];  // Amarillo — normal
 ```
-
----
-
-## 🌐 Desplegar en GitHub Pages
-
-1. Sube el repositorio a GitHub
-2. Ve a **Settings → Pages**
-3. En **Source** selecciona `Deploy from a branch`
-4. Rama: `main` · Carpeta: `/ (root)`
-5. Guarda — en unos minutos estará en `https://TU-USUARIO.github.io/NOMBRE-REPO/`
-
-> Recuerda reemplazar `TU-USUARIO` y `d20-ultra-3d` con tu usuario y nombre de repo reales en los enlaces de este README.
 
 ---
 
