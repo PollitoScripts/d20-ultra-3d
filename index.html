@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D20 Master 3D - Edición Ultra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>D20<span>ULTRA_3D</span></h1>
+        </header>
+
+        <section class="controls-card">
+            <div class="control-group">
+                <label>Dados</label>
+                <input type="number" id="diceCount" min="1" max="10" value="1">
+            </div>
+            <div class="control-group">
+                <label>Mayores a (x)</label>
+                <input type="number" id="threshold" value="0">
+            </div>
+            <button id="rollBtn" class="main-button">REROLLEAR TODO</button>
+        </section>
+
+        <main id="diceContainer" class="dice-view"></main>
+
+        <div class="stats-grid">
+            <div class="stat-box">
+                <span class="label">Suma Total</span>
+                <span id="statTotal" class="value">0</span>
+            </div>
+            <div class="stat-box">
+                <span class="label">Éxitos (&gt; <span id="threshLabel">0</span>)</span>
+                <span id="statSuccess" class="value">0</span>
+            </div>
+        </div>
+
+        <section class="history-container">
+            <h3>Historial de Tiradas</h3>
+            <div class="history-scroll">
+                <table>
+                    <thead>
+                        <tr><th>Hora</th><th>Dados</th><th>Total</th></tr>
+                    </thead>
+                    <tbody id="historyBody"></tbody>
+                </table>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
