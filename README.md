@@ -2,7 +2,7 @@
 
 > Simulador de dados D20 en 3D para sesiones de rol — puro HTML, CSS y JavaScript vanilla. Sin dependencias, sin frameworks, sin servidor.
 
-**[▶ Demo en vivo](https://TU-USUARIO.github.io/d20-ultra-3d/)** · [Reportar bug](https://github.com/TU-USUARIO/d20-ultra-3d/issues)
+**[▶ Demo en vivo](https://pollitoscripts.github.io/d20-ultra-3d/)** · [Reportar bug](https://github.com/pollitoscripts/d20-ultra-3d/issues)
 
 ---
 
